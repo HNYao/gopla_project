@@ -325,42 +325,43 @@
 </section>
 <!-- End paper abstract -->
 
-<div class="has-text-centered" style="margin-top: 2rem;">
-  <img src="static\images\pipeline.png" alt="pipeline" style="width: 50%; max-width: none; border-radius: 8px;">
-  <p class="is-size-10 has-text-grey" style="margin-top: 0.5rem;">Fig 1: Overview of our proposed placement model. A hierarchical model is used to infer the pose of an object to be placed, capturing
-    both the user preference and the physical plausibility.</p>
+<div class="has-text-centered mb-6" style="margin-top: 2rem; margin-bottom: 10rem;"> 
+  <div class="image-container" style="width: 50%; margin: 0 auto;">
+    <img src="static\images\pipeline.png" alt="pipeline" style="width: 100%; border-radius: 8px;">
+    <p class="is-size-10 has-text-grey" style="margin-top: 0.5rem; width: 100%;">
+      Fig 1: Overview of our proposed placement model. A hierarchical model is used to infer the pose of an object to be placed, capturing
+      both the user preference and the physical plausibility.
+    </p>
+  </div>
 </div>
 
 
 
 
-
 <!-- Video carousel 1-->
-<section class="hero is-small">
+<section class="hero is-small mb-3">  
   <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Single Object Placement</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static\videos\single_1.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static\videos\single_2.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static\videos\single_3.mp4" type="video/mp4">
-          </video>
+    <div class="container is-max-desktop">
+      <h2 class="title is-3 has-text-centered mb-4">Single Object Placement</h2>
+      <div class="columns is-centered">
+        <div class="column is-10">
+          <div id="results-carousel" class="carousel results-carousel">
+            <div class="item item-video1">
+              <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
+                <source src="static\videos\single_1.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="item item-video2">
+              <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
+                <source src="static\videos\single_2.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="item item-video3">
+              <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
+                <source src="static\videos\single_3.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -369,24 +370,24 @@
 <!-- End video carousel 1-->
 
 <!-- Video carousel 2-->
-<section class="hero is-small">
+<section class="hero is-small mb-5">
   <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Sequential Object Placement</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static\videos\seq_1.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static\videos\seq_2.mp4" type="video/mp4">
-          </video>
+    <div class="container is-max-desktop">
+      <h2 class="title is-3 has-text-centered mb-4">Sequential Object Placement</h2>
+      <div class="columns is-centered">
+        <div class="column is-10">
+          <div id="results-carousel2" class="carousel results-carousel">
+            <div class="item item-video1">
+              <video poster="" id="video4" controls muted loop height="100%" preload="metadata">
+                <source src="static\videos\seq_1.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="item item-video2">
+              <video poster="" id="video5" controls muted loop height="100%" preload="metadata">
+                <source src="static\videos\seq_2.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -395,18 +396,18 @@
 <!-- End video carousel 2-->
 
 <!-- Video carousel 3-->
-<section class="hero is-small">
+<section class="hero is-small mb-5"> 
   <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Multi-modal Context</h2>
-
-        <div class="item item-video1">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static\videos\multimodal_1.mp4" type="video/mp4">
-          </video>
-
+    <div class="container is-max-desktop">
+      <h2 class="title is-3 has-text-centered mb-4">Multi-modal Context</h2>
+      <div class="columns is-centered">
+        <div class="column is-10">
+          <div class="single-video-container">
+            <video poster="" id="video6" controls muted loop height="100%" preload="metadata">
+              <source src="static\videos\multimodal_1.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -417,15 +418,18 @@
 <!-- Youtube video -->
 <section class="hero is-small is-light">
   <div class="hero-body">
-    <div class="container">
+    <div class="container is-max-desktop">  
       <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
+      <h2 class="title is-3 has-text-centered">Video Presentation</h2>
+      <div class="columns is-centered">  
+        <div class="column is-10">  
           <div class="publication-video">
-            <!-- TODO: Replace with your YouTube video ID -->
-            <iframe src="https://www.youtube.com/embed/J847AX6uYHw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/J847AX6uYHw" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" 
+                    allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -435,21 +439,6 @@
 <!-- End youtube video -->
 
 
-
-<!-- Paper poster -->
-<!-- <section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2> -->
-
-      <!-- TODO: Replace with your poster PDF -->
-      <!-- <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
-    </div>
-  </section> -->
-<!--End paper poster -->
 
 
 
